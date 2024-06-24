@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 // const PhoneBook = require('./model/phonebook')
-const PhoneBook = require('./modal/book.js');
+const PhoneBook = require('../modal/book');
 app.use(express.json());
 app.use(cors());
 const PORT = 8000;
